@@ -1,3 +1,4 @@
+
 <template>
 <div>
   <div class="form">
@@ -27,30 +28,24 @@
   display:flex;
   justify-content:space-between;
   background-color:paleturquoise;
-
-width:1000px;
-height:50px;
+  width:1000px;
+  height:50px;
 }
-
 #step{
 background-color:royalblue;
 color:white;
 margin-top:0;
 }
-
 #inst{
 padding-right:300px;
 font:bold;
 }
-
 .form-body{
   padding:10px;
 }
-
 .genre{
   color:royalblue;
 }
-
 .button{
   padding:5px;
   text-align:center;

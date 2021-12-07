@@ -1,7 +1,8 @@
-<template>
+ 
+ <template>
   <div class="home">
     <div class="form">
-    <div class="form-header">
+     <div class="form-header">
       <p id="step">STEP1</p>
       <p id="inst">お客様の情報を入力してください</p>
     </div>
@@ -26,7 +27,7 @@
   <div class="button-group">
   <button class="button" >次へ進む ＞</button>
   </div>
-</router-link>
+  </router-link>
   </div>
 </template>
 
@@ -41,9 +42,8 @@
   display:flex;
   justify-content:space-between;
   background-color:paleturquoise;
-
-width:1000px;
-height:50px;
+  width:1000px;
+  height:50px;
 }
 
 #step{
@@ -54,18 +54,14 @@ margin-top:0;
 
 #inst{
 padding-right:300px;
-
 font:bold;
 }
-
 .form-body{
   padding:10px;
 }
-
 .genre{
   color:royalblue;
 }
-
 .button{
   padding:5px;
   text-align:center;
