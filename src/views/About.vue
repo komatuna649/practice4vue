@@ -1,6 +1,7 @@
-<template>
-  <div class="about">
-  <transition name="fade">
+  
+  <template>
+   <div class="about">
+    <transition name="fade">
     <div>
   <div class="form">
     <div class="form-header">
@@ -25,9 +26,6 @@
       </div>
     </div>
   </div>
-
-
-
   <div class="button-group">
     <router-link to="/" class="button">前へ戻る ＞</router-link>
     <router-link to="/page3" class="button">次へ進む ＞</router-link>
@@ -48,31 +46,24 @@
   display:flex;
   justify-content:space-between;
   background-color:paleturquoise;
-
-width:1000px;
-height:50px;
+  width:1000px;
+  height:50px;
 }
-
 #step{
 background-color:royalblue;
 color:white;
 margin-top:0;
 }
-
 #inst{
 padding-right:300px;
-
 font:bold;
 }
-
 .form-body{
   padding:10px;
 }
-
 .genre{
   color:royalblue;
 }
-
 .button{
   padding:5px;
   text-align:center;
@@ -83,7 +74,6 @@ font:bold;
 .button-group{
   text-align:center;
 }
-
 </style>
 
 <script>

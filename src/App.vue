@@ -1,7 +1,6 @@
 <template>
   <div>
     <div class="header">
-
       <div class="title">
         <h1>Sample App</h1>
       </div>
