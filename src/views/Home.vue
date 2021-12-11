@@ -22,17 +22,27 @@
       </select>日
     </div>
   </div>
-  
+
   <router-link to="/about">
   <div class="button-group">
   <button class="button" >次へ進む ＞</button>
   </div>
+    
   </router-link>
+  <transition>
+  <router-view/>
+   </transition>
   </div>
 </template>
 
 
 <style scoped>
+.v-enter-active, .v-leave-active {
+  transition: opacity 5s;
+}
+.v-enter, .v-leave-to {
+  opacity: 0;
+}
 .form{
   width:1000px;
   margin:100px auto;
