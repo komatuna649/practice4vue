@@ -17,7 +17,12 @@
     path: '/page3',
     name: 'page3',
     component: () => import(/* webpackChunkName: "about" */ '../views/page3.vue')
-  }
+  },
+  {
+    path: '/page4',
+    name: 'page4',
+    component: () => import(/* webpackChunkName: "about" */ '../views/page4.vue')
+  },
 ]
  const router = new VueRouter({
   mode: 'history',

@@ -8,7 +8,7 @@
     </div>
     <div class="body">
       <p class="genre">-ご相談内容-</p>
-        <textarea cols="135" rows="20" ></textarea>
+        <textarea cols="135" rows="20" :value="consul" @input="updateConsul"></textarea>
     </div>
   </div>
   <div class="button-group">
@@ -17,6 +17,18 @@
   </div>
 </div>
 </template>
+
+<script>
+export default {
+  methods:{
+    updateConsul(e){
+      this.$store.commit('updateConsul',e.target.value)
+    }
+  }
+}
+
+
+</script>
 
 <style scoped>
 .form{
